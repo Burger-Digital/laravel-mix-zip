@@ -14,11 +14,11 @@ Please make sure that you are using `laravel-mix` version 4.0 or higher.
 You can install the package with npm or yarn:
 
 ```bash
-npm install laravel-mix-artisan-serve --save-dev
+npm install laravel-mix-zip --save-dev
 ```
 
 ```bash
-yarn add laravel-mix-artisan-serve --dev
+yarn add laravel-mix-zip --dev
 ```
 
 Then require the extension in your Mix configuration:
@@ -26,11 +26,11 @@ Then require the extension in your Mix configuration:
 ```js
 const mix = require('laravel-mix');
 
-require('laravel-mix-artisan-serve');
+require('laravel-mix-zip');
 ...
 ```
 
-Enable the extension by calling `.serve()` at the end of your Mix chain:
+Enable the extension by calling `.zip()` at the end of your Mix chain:
 
 ```js
 mix.sass('resources/sass/app.scss', 'public/css').zip(['app'], ['composer.json'], 'deploy.zip');
