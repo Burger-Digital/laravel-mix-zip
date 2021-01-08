@@ -1,0 +1,12 @@
+{
+  "name": "laravel-mix-zip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhorton34/laravel-mix-code-splitter.git"
+  }
+}
