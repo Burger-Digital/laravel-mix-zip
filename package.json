@@ -1,12 +1,12 @@
 {
   "name": "laravel-mix-zip",
   "version": "1.0.0",
-  "description": "",
+  "description": "Zip files during the laravel mix pipeline",
   "main": "index.js",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhorton34/laravel-mix-code-splitter.git"
+    "url": "git+https://github.com/xHeinrich/laravel-mix-zip.git"
   }
 }
