@@ -4,10 +4,9 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This extension allows you to automatically serve your Laravel app with `php artisan serve` with Laravel Mix.  
-Please make sure that you are using `laravel-mix` version 4.0 or higher.
+This extension allows you to automatically zip files after mix finishes running.  
 
-> This package only runs when the `--watch` flag is passed such as with the default `npm run watch` command from a default Laravel install.
+Please make sure that you are using `laravel-mix` version 4.0 or higher.
 
 ## Usage
 
