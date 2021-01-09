@@ -1,4 +1,4 @@
-# Laravel Mix Artisan Serve
+# Laravel Mix Zip
 
 [![Latest Version on NPM][ico-version]][link-npm]
 [![Software License][ico-license]](LICENSE.md)
