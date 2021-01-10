@@ -40,7 +40,7 @@ class ZipPlugin {
     register(directories, files, output_path) {
         mix.after(() => {
             const output = file_system.createWriteStream(
-                mix.paths.root(output_path)
+                Mix.paths.root(output_path)
             );
 
             const archive = archiver('zip');
@@ -57,12 +57,12 @@ class ZipPlugin {
 
             // append files from a sub-directory, putting its contents at the root of archive
             directories.forEach((directory) => {
-                const absolute = mix.paths.root(directory);
+                const absolute = Mix.paths.root(directory);
                 archive.directory(absolute, directory);
             });
 
             files.forEach((file) => {
-                const absolute = mix.paths.root(file);
+                const absolute = Mix.paths.root(file);
                 archive.file(absolute, {name: file});
             });
 

@@ -1,6 +1,6 @@
 {
     "name": "laravel-mix-zip",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Zip files during the laravel mix pipeline",
     "main": "index.js",
     "author": "",
